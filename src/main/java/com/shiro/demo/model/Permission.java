@@ -6,7 +6,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Data
-@Entity
 @Table(name = "sys_permissions")
 @NoArgsConstructor
 public class Permission {
